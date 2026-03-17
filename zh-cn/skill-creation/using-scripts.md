@@ -9,8 +9,8 @@ layout: default
 
 当现有的包已经满足你的需求时，你可以直接在 `SKILL.md` 指令中引用它，而不需要 `scripts/` 目录。许多生态系统提供了在运行时自动解析依赖的工具。
 
-<details>
-<summary>uvx</summary>
+<details markdown="block">
+<summary markdown="span">uvx</summary>
 
 [uvx](https://docs.astral.sh/uv/guides/tools/) 在隔离环境中运行 Python 包，并具有激进的缓存。它随 [uv](https://docs.astral.sh/uv/) 一起发布。
 
@@ -24,8 +24,8 @@ uvx black@24.10.0 .
 
 </details>
 
-<details>
-<summary>pipx</summary>
+<details markdown="block">
+<summary markdown="span">pipx</summary>
 
 [pipx](https://pipx.pypa.io/) 在隔离环境中运行 Python 包。可通过操作系统包管理器安装（`apt install pipx`、`brew install pipx`）。
 
@@ -39,8 +39,8 @@ pipx run 'ruff==0.8.0' check .
 
 </details>
 
-<details>
-<summary>npx</summary>
+<details markdown="block">
+<summary markdown="span">npx</summary>
 
 [npx](https://docs.npmjs.com/cli/commands/npx) 运行 npm 包，按需下载。它随 npm 一起发布（npm 随 Node.js 一起发布）。
 
@@ -55,8 +55,8 @@ npx create-vite@6 my-app
 
 </details>
 
-<details>
-<summary>bunx</summary>
+<details markdown="block">
+<summary markdown="span">bunx</summary>
 
 [bunx](https://bun.sh/docs/cli/bunx) 是 Bun 的 `npx` 等价物。它随 [Bun](https://bun.sh/) 一起发布。
 
@@ -70,8 +70,8 @@ bunx create-vite@6 my-app
 
 </details>
 
-<details>
-<summary>deno run</summary>
+<details markdown="block">
+<summary markdown="span">deno run</summary>
 
 [deno run](https://docs.deno.com/runtime/reference/cli/run/) 直接从 URL 或说明符运行脚本。它随 [Deno](https://deno.com/) 一起发布。
 
@@ -85,8 +85,8 @@ deno run --allow-read npm:eslint@9 -- --fix .
 
 </details>
 
-<details>
-<summary>go run</summary>
+<details markdown="block">
+<summary markdown="span">go run</summary>
 
 [go run](https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program) 直接编译并运行 Go 包。它内置于 `go` 命令中。
 
@@ -143,8 +143,8 @@ go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.0 run
 
 几种语言支持内联依赖声明：
 
-<details>
-<summary>Python</summary>
+<details markdown="block">
+<summary markdown="span">Python</summary>
 
 [PEP 723](https://peps.python.org/pep-0723/) 定义了内联脚本元数据的标准格式。在 `# ///` 标记内的 TOML 块中声明依赖：
 
@@ -175,8 +175,8 @@ uv run scripts/extract.py
 
 </details>
 
-<details>
-<summary>Deno</summary>
+<details markdown="block">
+<summary markdown="span">Deno</summary>
 
 Deno 的 `npm:` 和 `jsr:` 导入说明符使每个脚本默认独立：
 
@@ -201,8 +201,8 @@ deno run scripts/extract.ts
 
 </details>
 
-<details>
-<summary>Bun</summary>
+<details markdown="block">
+<summary markdown="span">Bun</summary>
 
 当没有找到 `node_modules` 目录时，Bun 在运行时自动安装缺失的包。直接在导入路径中固定版本：
 
@@ -226,8 +226,8 @@ bun run scripts/extract.ts
 
 </details>
 
-<details>
-<summary>Ruby</summary>
+<details markdown="block">
+<summary markdown="span">Ruby</summary>
 
 Bundler 自 Ruby 2.6 起随附。使用 `bundler/inline` 直接在脚本中声明 gem：
 
