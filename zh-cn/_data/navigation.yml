@@ -1,0 +1,19 @@
+main:
+  - title: "什么是技能"
+    url: /what-are-skills.html
+  - title: "规范"
+    url: /specification.html
+
+creators:
+  - title: "最佳实践"
+    url: /skill-creation/best-practices.html
+  - title: "优化描述"
+    url: /skill-creation/optimizing-descriptions.html
+  - title: "评估技能"
+    url: /skill-creation/evaluating-skills.html
+  - title: "使用脚本"
+    url: /skill-creation/using-scripts.html
+
+clients:
+  - title: "添加技能支持"
+    url: /client-implementation/adding-skills-support.html

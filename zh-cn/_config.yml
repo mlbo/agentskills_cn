@@ -1,0 +1,28 @@
+title: Agent Skills 中文文档
+description: 一种简单、开放的格式，用于赋予 AI 代理新能力和专业知识
+lang: zh-CN
+url: ""
+baseurl: "/agentskills_cn"
+
+theme: minima
+
+header_pages:
+  - what-are-skills.md
+  - specification.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
