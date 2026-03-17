@@ -4,8 +4,6 @@ lang: zh-CN
 url: ""
 baseurl: "/agentskills_cn"
 
-theme: minima
-
 header_pages:
   - what-are-skills.md
   - specification.md
