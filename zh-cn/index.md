@@ -27,18 +27,18 @@ Agent Skills 是包含指令、脚本和资源的文件夹，代理可以发现�
 Agent Skills 得到了领先 AI 开发工具的支持。
 
 <div class="logo-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 24px; align-items: center; justify-items: center; margin: 24px 0;">
-  <a href="https://junie.jetbrains.com/" title="Junie"><img src="{{ site.baseurl }}/assets/images/logos/junie-logo-on-white.svg" alt="Junie" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://geminicli.com" title="Gemini CLI"><img src="{{ site.baseurl }}/assets/images/logos/gemini-cli-logo_light.svg" alt="Gemini CLI" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://cursor.com/" title="Cursor"><img src="{{ site.baseurl }}/assets/images/logos/LOCKUP_HORIZONTAL_2D_LIGHT.svg" alt="Cursor" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://claude.ai/code" title="Claude Code"><img src="{{ site.baseurl }}/assets/images/logos/Claude-Code-logo-Slate.svg" alt="Claude Code" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://claude.ai/" title="Claude"><img src="{{ site.baseurl }}/assets/images/logos/Claude-logo-Slate.svg" alt="Claude" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://github.com/" title="GitHub"><img src="{{ site.baseurl }}/assets/images/logos/GitHub_Lockup_Dark.svg" alt="GitHub" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://code.visualstudio.com/" title="VS Code"><img src="{{ site.baseurl }}/assets/images/logos/vscode.svg" alt="VS Code" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://developers.openai.com/codex" title="OpenAI Codex"><img src="{{ site.baseurl }}/assets/images/logos/OAI_Codex-Lockup_400px.svg" alt="OpenAI Codex" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://block.github.io/goose/" title="Goose"><img src="{{ site.baseurl }}/assets/images/logos/goose-logo-black.png" alt="Goose" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://www.all-hands.dev/" title="OpenHands"><img src="{{ site.baseurl }}/assets/images/logos/openhands-logo-light.svg" alt="OpenHands" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://ampcode.com/" title="Amp"><img src="{{ site.baseurl }}/assets/images/logos/amp-logo-light.svg" alt="Amp" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
-  <a href="https://databricks.com/" title="Databricks"><img src="{{ site.baseurl }}/assets/images/logos/databricks-logo-light.svg" alt="Databricks" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://junie.jetbrains.com/" title="Junie"><img src="{{ site.baseurl }}/images/logos/junie/junie-logo-on-white.svg" alt="Junie" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://geminicli.com" title="Gemini CLI"><img src="{{ site.baseurl }}/images/logos/gemini-cli/gemini-cli-logo_light.svg" alt="Gemini CLI" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://cursor.com/" title="Cursor"><img src="{{ site.baseurl }}/images/logos/cursor/LOCKUP_HORIZONTAL_2D_LIGHT.svg" alt="Cursor" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://claude.ai/code" title="Claude Code"><img src="{{ site.baseurl }}/images/logos/claude-code/Claude-Code-logo-Slate.svg" alt="Claude Code" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://claude.ai/" title="Claude"><img src="{{ site.baseurl }}/images/logos/claude-ai/Claude-logo-Slate.svg" alt="Claude" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://github.com/" title="GitHub"><img src="{{ site.baseurl }}/images/logos/github/GitHub_Lockup_Dark.svg" alt="GitHub" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://code.visualstudio.com/" title="VS Code"><img src="{{ site.baseurl }}/images/logos/vscode/vscode.svg" alt="VS Code" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://developers.openai.com/codex" title="OpenAI Codex"><img src="{{ site.baseurl }}/images/logos/oai-codex/OAI_Codex-Lockup_400px.svg" alt="OpenAI Codex" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://block.github.io/goose/" title="Goose"><img src="{{ site.baseurl }}/images/logos/goose/goose-logo-black.png" alt="Goose" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://www.all-hands.dev/" title="OpenHands"><img src="{{ site.baseurl }}/images/logos/openhands/openhands-logo-light.svg" alt="OpenHands" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://ampcode.com/" title="Amp"><img src="{{ site.baseurl }}/images/logos/amp/amp-logo-light.svg" alt="Amp" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
+  <a href="https://databricks.com/" title="Databricks"><img src="{{ site.baseurl }}/images/logos/databricks/databricks-logo-light.svg" alt="Databricks" style="max-width: 100px; max-height: 40px; object-fit: contain;"></a>
 </div>
 
 ## 开放开发
