@@ -33,7 +33,7 @@ skill-name/
 
 > **最小示例：**
 >
-> ```markdown SKILL.md
+> ```markdown
 > ---
 > name: skill-name
 > description: A description of what this skill does and when to use it.
@@ -42,7 +42,7 @@ skill-name/
 >
 > **包含可选字段的示例：**
 >
-> ```markdown SKILL.md
+> ```markdown
 > ---
 > name: pdf-processing
 > description: Extract PDF text, fill forms, merge files. Use when handling PDFs.
@@ -206,7 +206,7 @@ skill-name/
 
 在技能中引用其他文件时，使用相对于技能根目录的路径：
 
-```markdown SKILL.md
+```markdown
 详见[参考指南](references/REFERENCE.md)。
 
 运行提取脚本：

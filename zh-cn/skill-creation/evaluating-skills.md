@@ -15,7 +15,7 @@ layout: default
 
 将测试用例存储在技能目录内的 `evals/evals.json` 中：
 
-```json evals/evals.json
+```json
 {
   "skill_name": "csv-analyzer",
   "evals": [
@@ -112,7 +112,7 @@ Execute this task:
 
 计时数据让你可以比较技能相对于基线消耗了多少时间和 token——一个大幅提升输出质量但使 token 使用量增加三倍的技能，与既更好又更便宜的技能，是完全不同的权衡。当每次运行完成时，记录 token 数量和耗时：
 
-```json timing.json
+```json
 {
   "total_tokens": 84852,
   "duration_ms": 23332
@@ -140,7 +140,7 @@ Execute this task:
 
 将断言添加到 `evals/evals.json` 的每个测试用例中：
 
-```json evals/evals.json highlight={9-14}
+```json
 {
   "skill_name": "csv-analyzer",
   "evals": [
@@ -166,7 +166,7 @@ Execute this task:
 
 最简单的方法是将输出和断言交给一个 LLM，让它逐一评估。对于可以通过代码检查的断言（有效的 JSON、正确的行数、文件存在且具有预期尺寸），使用验证脚本——脚本对于机械检查比 LLM 判断更可靠，并且可跨迭代复用。
 
-```json grading.json
+```json
 {
   "assertion_results": [
     {
@@ -210,7 +210,7 @@ Execute this task:
 
 当迭代中的每次运行都评判完毕后，计算每种配置的汇总统计并保存到评估目录旁边的 `benchmark.json`（例如 `csv-analyzer-workspace/iteration-1/benchmark.json`）：
 
-```json benchmark.json
+```json
 {
   "run_summary": {
     "with_skill": {
@@ -252,7 +252,7 @@ Execute this task:
 
 记录每个测试用例的具体反馈并保存在工作区中（例如，作为评估目录旁边的 `feedback.json`）：
 
-```json feedback.json
+```json
 {
   "eval-top-months-chart": "The chart is missing axis labels and the months are in alphabetical order instead of chronological.",
   "eval-clean-missing-emails": ""

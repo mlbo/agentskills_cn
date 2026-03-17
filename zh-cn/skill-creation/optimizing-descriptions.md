@@ -28,7 +28,7 @@ layout: default
 
 要测试触发，你需要一组评估查询——标注了应该或不应该触发技能的真实用户提示词。
 
-```json eval_queries.json
+```json
 [
   { "query": "I've got a spreadsheet in ~/data/q4_results.xlsx with revenue in col C and expenses in col D — can you add a profit margin column and highlight anything under 10%?", "should_trigger": true },
   { "query": "whats the quickest way to convert this json file to yaml", "should_trigger": false }

@@ -112,7 +112,7 @@ go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.0 run
 
 在 `SKILL.md` 中列出可用脚本，让代理知道它们的存在：
 
-```markdown SKILL.md
+```markdown
 ## Available scripts
 
 - **`scripts/validate.sh`** — 验证配置文件
@@ -121,7 +121,7 @@ go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.0 run
 
 然后指示代理运行它们：
 
-````markdown SKILL.md
+````markdown
 ## Workflow
 
 1. Run the validation script:
@@ -148,7 +148,7 @@ go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.0 run
 
 [PEP 723](https://peps.python.org/pep-0723/) 定义了内联脚本元数据的标准格式。在 `# ///` 标记内的 TOML 块中声明依赖：
 
-```python scripts/extract.py
+```python
 # /// script
 # dependencies = [
 #   "beautifulsoup4",
@@ -180,7 +180,7 @@ uv run scripts/extract.py
 
 Deno 的 `npm:` 和 `jsr:` 导入说明符使每个脚本默认独立：
 
-```typescript scripts/extract.ts
+```typescript
 #!/usr/bin/env -S deno run
 
 import * as cheerio from "npm:cheerio@1.0.0";
@@ -206,7 +206,7 @@ deno run scripts/extract.ts
 
 当没有找到 `node_modules` 目录时，Bun 在运行时自动安装缺失的包。直接在导入路径中固定版本：
 
-```typescript scripts/extract.ts
+```typescript
 #!/usr/bin/env bun
 
 import * as cheerio from "cheerio@1.0.0";
@@ -231,7 +231,7 @@ bun run scripts/extract.ts
 
 Bundler 自 Ruby 2.6 起随附。使用 `bundler/inline` 直接在脚本中声明 gem：
 
-```ruby scripts/extract.rb
+```ruby
 require 'bundler/inline'
 
 gemfile do
